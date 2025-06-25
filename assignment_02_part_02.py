@@ -40,9 +40,11 @@ if image is None:
 
 # Picking a seed point 
 seed_point =  (250,250)
+
+# Picking a threshold value
 threshold = 38
 
-# Apply Region Growing
+# Applying the Region Growing technique
 segmented = region_growing(image, seed_point, threshold)
 
 # Show results
